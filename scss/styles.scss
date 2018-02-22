@@ -19,7 +19,7 @@
         4. Lead Styles
         5. About Styles
         6. Experience Styles
-        7. Education Styles
+        7. Education SProjecttyles
         8. Project Styles
         9. Skills Styles
         10. Contact Styles
@@ -455,7 +455,7 @@ footer {
 
     p {
         color: $text;
-        margin: 0;
+        margin: 30;
     }
 }
 
@@ -667,12 +667,32 @@ footer {
         color: $heading;
         margin: 0 0 15px 0;
     }
+    
+    h4 {
+        font-size: 1.05em;
+        font-weight: 300;
+        color: $text;
+        margin: 0 0 15px 0;
+    }
 
     p {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
     }
+}
+
+.alternate {
+    .project-image {
+        float: right;
+    }
+
+    .project-info {
+        margin-left: 0px;
+        margin-right: 300px;
+
+    }
+
 }
 
 .no-image {
@@ -962,7 +982,7 @@ footer {
         display: none;
     }
 
-    .project-info {
+    .project-info, .alternate > .project-info {
         position: relative;
         margin: 0;
         padding: 30px 15px;
