@@ -79,7 +79,7 @@
                     </p><p>
                         Als ich 2003 mein erstes textbasiertes Abenteuerspiel mit BASIC zusammengekleistert habe, wusste ich, dass mich das Zusammenbauen von kleinen logischen Steinen zu komplexen Welten begeistert.
                     </p><p>
-                        Inzwischen habe ich diverse Sprachen, Plattformen und moderne Werkzeuge kennengelernt mit denen man diverse Domänen steuern kann. Sei es die Performance-Optimierung eines maßgeschneiderte Onlineshops, die Konzeption einer KI-basierten internen Suchanwendung, oder die Umsetzung einer Webbasierten Robotersteuerung - ich habe Erfahrung. Nun würde ich gerne meine Fähigkeiten auf die Probe stellen und mehr Praxiserfahrung in der Welt der profesionellen Softwareentwicklung sammeln.
+                        Inzwischen habe ich diverse Sprachen, Plattformen und moderne Werkzeuge kennengelernt mit denen man verschiedenste Domänen steuern kann. Sei es die Performance-Optimierung eines maßgeschneiderte Onlineshops, die Konzeption einer KI-basierten internen Suchanwendung, oder die Umsetzung einer Webbasierten Robotersteuerung - ich habe Erfahrung. Nun würde ich gerne meine Fähigkeiten auf die Probe stellen und mehr Praxiserfahrung in der Welt der profesionellen Softwareentwicklung sammeln.
                         Aktuell bin ich auf der Suche nach einer Stelle als Softwareentwickler (Vollzeit) in München.
                     </p>
                 </div>
@@ -256,29 +256,47 @@
     </div>
     <!-- End #projects -->
 
-    <div class="skills">
+    <div class="skills" id="skills">
         <h2 class="heading">Fähigkeiten</h2>
+        <h3>Sprachen</h3>
         <ul>
-            <li>C#</li>
-            <li>Java</li>
             <li>JavaScript</li>
-            <li>TypeScript</li>
-            <li>Node.js</li>
             <li>Python</li>
+            <li>Bash-Scripting</li>
+            <li>C#</lii>
+            <li>Java</li>
+            <li>TypeScript</li>
+        </ul>
+        <h3>Frameworks & Frontends</h3>
+        <ul>
+            <li>Node</li>
             <li>Flask</li>
             <li>Django</li>
             <li>Angular</li>
             <li>React</li>
             <li>HTML / CSS</li>
-            <li>DSLs</li>
+            <li>DSL-Entwurf mit Xtext</li>
+        </ul>
+        <h3>Datenbanken und Allgemeines</h3>
+        <ul>
+            <li>Git</li>
+            <li>Docker</li>
+            <li>RethinkDB</li>
+            <li>Oracle DB</li>
+            <li>MongoDB</li>
+            <li>MySQL</li>
         </ul>
     </div>
     <!-- End #skills -->
 
-    <div id="contact" class="hidden">
-        <h2>Sag Hallo!</h2>
+    <div id="contact" >
+        <h2>So erreicht man mich:</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/felix.kampfer@gmail.com">
+            
+            <button onclick="location.href='mailto:felix.'+'kampfer@gmail.com';">felix.kampfer(at)gmail.com</button>
+        </div>
+        <div >
+            <form class="hidden" method="POST" action="https://formspree.io/felix.kampfer@gmail.com">
                 <input type="hidden" name="_subject" value="1337estn00b! Contact request from portfolio page" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
